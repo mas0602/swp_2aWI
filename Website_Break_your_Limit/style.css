@@ -1,0 +1,170 @@
+:root {
+    --clr-primary: #282A35;
+}
+
+body {
+    background-image: url(background.index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 101,01%;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 90px;
+    border: none;
+}
+
+#bild {
+    width: 60px;
+    zoom: 140%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    border: none;
+}
+
+
+
+#brust{
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    padding: 24px 16px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#brust a{
+    text-decoration: none;
+    color: black;
+}
+
+#brust:hover{
+    background: #c0d6e4;
+}
+
+#rucken {
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    padding: 24px 16px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#rucken a{
+    text-decoration: none;
+    color: black;
+}
+#rucken:hover{
+    background: #c0d6e4;
+}
+
+#arme {
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    padding: 24px 16px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+#arme a{
+    text-decoration: none;
+    color: black;
+}
+#arme:hover{
+    background: #c0d6e4;
+}
+
+
+
+#search {
+    border-radius: 50%;
+    border-color: black;
+    
+}
+
+#headline {
+    color: white;
+    font-size: 70px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    /*margin: 2px, 0px, -20px;*/
+}
+
+#underheadline {
+    color:#525151;
+    font-size: 23px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  #suchfeld {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    font-weight: bolder;
+    
+  }
+  /*mit der Lupe hat es nicht funktioniert*/
+  #btn {
+    width: 125px;
+    height: 60px;
+    background-color: #212121;
+    background:#212121;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+    color: white;
+  }
+  
+#btn:hover{
+    background: black;
+}
+
+
+
+
+        

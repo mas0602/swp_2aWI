@@ -1,0 +1,176 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 101,01%;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 90px;
+    border: none;
+}
+
+#bild {
+    width: 60px;
+    zoom: 140%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url(background.arme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Startseite {
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    padding: 24px 16px; 
+    background-color: white;
+    border-color: white;
+    display: block;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#Startseite a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #323332;
+    margin-left: 5px;
+    color: white;
+    margin-top: 100px;
+    width: fit-content;
+    font-size: 20px;
+  }
+  
+  .container p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+
+.ausfuhrung {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #323332;
+    width: fit-content;
+    margin-left: 5px;
+    color: white;
+    margin-right: 700px;
+    font-size: 20px;
+  }
+  
+  .ausfuhrung p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+
+
+
+  #trizepsdrücken {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #323332;
+    margin-left: 5px;
+    color: white;
+    margin-top: 100px;
+    width: fit-content;
+    font-size: 20px;
+  }
+  
+  .container2 p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+
+.ausfuhrung2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #323332;
+    width: fit-content;
+    margin-left: 5px;
+    color: white;
+    margin-right: 700px;
+    font-size: 20px;
+  }
+  
+  .ausfuhrung2 p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  #bizepcurls {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 820px;
+    right: 100px;
+    border-radius: 20px;
+}
